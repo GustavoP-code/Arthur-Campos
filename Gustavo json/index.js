@@ -50,15 +50,16 @@ function BuscarAlunos(){
 }
 
 function BuscarCEP(){
-    const cep = prompt("CEP");
+const inputcep = document.querySelector("#txtcep");
+const inputRua = document.querySelector("#txtrua");
 
-    
+    const cep = inputcep.value;    
     axios.get(`https://brasilapi.com.br/api/cep/v2/${cep}`)
     .then(function (response) {
     console.log(response.data);
       console.log(response.data);
       inputRua.value = response.data.street;
-      const CEP = document.getElementById(CEP)
+      //const CEP = document.getElementById(CEP)
       
 
 
@@ -66,4 +67,9 @@ function BuscarCEP(){
   .catch(function (error) {
     console.log(error);
   })
+}
+
+function mudar(){
+  const texto = document.querySelector("#formulario")
+  texto.innerHTML += `<label>a</label>`
 }

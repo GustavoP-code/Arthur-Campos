@@ -7,17 +7,23 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
-
     <input type="button" value="Salvar" onclick="Salvar()">
     <input type="button" value="Buscar" onclick="BuscarAlunos()">
     <input type="button" value="CEP" onclick="BuscarCEP()">
-    <form>
-        <label id="CEP">CEP</label><br>
-        <label id="Rua">Rua</label><br>
-        <label id="Numero">Numero</label><br>
-        <label id="Bairro">Bairro</label><br>
-        <label id="Cidade">Cidade</label><br>
-        <label id="UF">UF</label><br>
+    <input type="button" value="texto" onclick="mudar()">
+    <form id="formulario">
+        <div>
+            <label for="txtcep">CEP</label>
+            <input type="text" id="txtcep">
+            <input type="button" value="buscar" onclick="BuscarCEP()">
+        </div>
+        <div>
+            <label for="txtrua">Rua</label>
+            <input type="text" id="txtrua">
+            <label for="txtrua">Rua</label>
+            <input type="text" id="txtrua" disabled>
+        </div>
+        
     </form>
     <script src="/index.js"></script>
 </body>
