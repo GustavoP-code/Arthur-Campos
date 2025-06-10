@@ -1,0 +1,51 @@
+[
+
+{
+    "nome": "Gian",
+    "nota1bim": 10,
+    "nota2bim": 9,
+    "aprovado": true
+},
+
+{
+    "nome": "Gustavo",
+    "nota1bim": 4,
+    "nota2bim": 10,
+    "aprovado": true
+},
+
+{
+    "nome": "Arthur",
+    "nota1bim": 8.2,
+    "nota2bim": 7,
+    "aprovado": true
+},
+
+{
+    "nome": "Lucas",
+    "nota1bim": 7,
+    "nota2bim": 4,
+    "aprovado": true
+},
+
+{
+    "nome": "Mariana",
+    "nota1bim": 9,
+    "nota2bim": 6,
+    "aprovado": true
+},
+
+{
+    "nome": "Rafael",
+    "nota1bim": 2,
+    "nota2bim": 2,
+    "aprovado": true
+},
+
+{
+    "nome": "Beatriz",
+    "nota1bim": 10,
+    "nota2bim": 5,
+    "aprovado": true
+}
+]
